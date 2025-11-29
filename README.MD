@@ -6,9 +6,9 @@
 ## Basic topics explored by the course
 
 - [X] Variables, mutability, and static typing
-- [ ] Ownership, borrowing, and lifetimes—Rust’s secret weapons for safety
+- [X] Ownership, borrowing, and lifetimes—Rust’s secret weapons for safety
 - [ ] Structs, enums, traits, generics, and method implementations
-- [ ] Control flow, loops, and pattern matching
+- [X] Control flow, loops, and pattern matching
 - [ ] Idiomatic error handling with Option and Result
 - [ ] File I/O and common stdlib utilities
 - [ ] How to write clean, efficient, and idiomatic Rust code
