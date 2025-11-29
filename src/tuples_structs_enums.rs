@@ -32,12 +32,16 @@ pub fn tuples_structs_enums() {
     // enum
 
     let _dir = Direction::UP;
-    
-    match_message(Message::Welcome {x:10, y:20});
-    match_message(Message::Chat {msg: "Hello Pattern Matching"});
+    let _dir = Direction::DOWN;
+    let _dir = Direction::LEFT;
+    let _dir = Direction::RIGHT;
+
+    match_message(Message::Welcome { x: 10, y: 20 });
+    match_message(Message::Chat {
+        msg: "Hello Pattern Matching",
+    });
     match_message(Message::Color(8, 16, 24));
     match_message(Message::Quit)
-    
 }
 
 struct User {
