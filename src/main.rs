@@ -1,10 +1,11 @@
 mod console_example;
 mod variables_and_mutability;
+mod primitive_data_types;
 
-use crate::console_example::console_example;
-use crate::variables_and_mutability::variables_and_mutability;
+use crate::primitive_data_types::primitive_data_types;
 
 fn main() {
-    console_example();
-    variables_and_mutability();
+    // console_example();
+    // variables_and_mutability();
+    primitive_data_types();
 }
