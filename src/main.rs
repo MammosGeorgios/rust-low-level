@@ -5,8 +5,9 @@ mod primitive_data_types;
 mod simple_control_flow;
 mod tuples_structs_enums;
 mod variables_and_mutability;
+mod ownership;
 
-use crate::pattern_matching::pattern_matching;
+use crate::ownership::ownership;
 
 fn main() {
     // console_example();
@@ -15,5 +16,6 @@ fn main() {
     // arrays_and_slices();
     // tuples_structs_enums();
     // simple_control_flow();
-    pattern_matching();
+    // pattern_matching();
+    ownership();
 }
