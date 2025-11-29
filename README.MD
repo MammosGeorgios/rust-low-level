@@ -5,7 +5,7 @@
 
 ## Basic topics explored by the course
 
-- [ ] Variables, mutability, and static typing
+- [X] Variables, mutability, and static typing
 - [ ] Ownership, borrowing, and lifetimes—Rust’s secret weapons for safety
 - [ ] Structs, enums, traits, generics, and method implementations
 - [ ] Control flow, loops, and pattern matching

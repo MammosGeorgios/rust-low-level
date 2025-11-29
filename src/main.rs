@@ -1,20 +1,10 @@
-use std::io;
-use std::io::Write;
+mod console_example;
+mod variables_and_mutability;
+
+use crate::console_example::console_example;
+use crate::variables_and_mutability::variables_and_mutability;
 
 fn main() {
     console_example();
-}
-
-fn console_example() {
-    let mut my_string = String::new();
-
-    io::stdout()
-        .write("\nWrite your message:\n".as_bytes())
-        .expect("Oh Oh! stdout failure!!");
-
-    io::stdin()
-        .read_line(&mut my_string)
-        .expect("You gave us a bad value");
-
-    println!("You typed: {}", my_string)
+    variables_and_mutability();
 }
