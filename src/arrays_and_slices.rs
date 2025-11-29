@@ -24,11 +24,9 @@ pub fn arrays_and_slices() {
     }
 
     // Slices!!
+    let _x = &my_array[1..3]; //This is a non-mutable slice!
 
-    let y = &my_array[1..3]; //This is a non-mutable slice!
-
-    // To make a mutable slice we need to write the following
-    let mut mut_y = &mut my_array[1..3];
+    let mut_y = &mut my_array[1..3];
     mut_y[0] = 99;
 
     println!("Change my_array value through mut_y slice: {:?}", my_array);
