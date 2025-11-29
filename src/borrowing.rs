@@ -22,11 +22,11 @@ pub fn borrowing() {
     println!("{}", calc_len_and_mutate(&mut s3));
 
     // We can have as many immutable borrows as we want
-    let s1_br1 = &s2;
-    let s1_br2 = &s2;
-    let s1_br3 = &s2;
-    let s1_br4 = &s2;
-    let s1_br5 = &s2;
+    let _s1_br1 = &s2;
+    let _s1_br2 = &s2;
+    let _s1_br3 = &s2;
+    let _s1_br4 = &s2;
+    let _s1_br5 = &s2;
 
     // Mutable borrows however are different when mixed with
     // The following code fails with [Cannot borrow 's3' as mutable more than once at a time
