@@ -1,6 +1,7 @@
 mod arrays_and_slices;
 mod borrowing;
 mod console_example;
+mod implementations;
 mod ownership;
 mod pattern_matching;
 mod primitive_data_types;
@@ -8,7 +9,7 @@ mod simple_control_flow;
 mod tuples_structs_enums;
 mod variables_and_mutability;
 
-use crate::borrowing::borrowing;
+use crate::implementations::implementations;
 
 fn main() {
     // console_example();
@@ -19,5 +20,6 @@ fn main() {
     // simple_control_flow();
     // pattern_matching();
     // ownership();
-    borrowing();
+    // borrowing();
+    implementations();
 }
