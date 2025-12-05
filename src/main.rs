@@ -6,10 +6,11 @@ mod ownership;
 mod pattern_matching;
 mod primitive_data_types;
 mod simple_control_flow;
+mod traits;
 mod tuples_structs_enums;
 mod variables_and_mutability;
 
-use crate::implementations::implementations;
+use crate::traits::traits;
 
 fn main() {
     // console_example();
@@ -21,5 +22,6 @@ fn main() {
     // pattern_matching();
     // ownership();
     // borrowing();
-    implementations();
+    // implementations();
+    traits();
 }
